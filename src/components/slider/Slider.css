@@ -1,0 +1,52 @@
+.container{
+position: relative;
+padding: 1rem;
+}
+.container .swiper{
+   
+    width: 80%;
+height: 12rem;
+position: unset;}
+.container  .swiper-slide{
+    width: 100%;
+display: flex;
+background-color: aliceblue;
+border-radius: 12px;
+padding: 2px;
+box-sizing: border-box;
+overflow: hidden;
+}
+.left{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.left>:nth-child(1){
+font-weight: 600;
+font-size: 1.5rem;
+}
+.left>:nth-child(3){
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+.left>:nth-child(4){
+    font-size: 17px;
+    background-color: rgb(244, 223, 63);
+    padding: .2rem;
+    border-radius: 10px;
+    cursor: pointer
+    
+}
+.left>:nth-child(4):hover{
+    background-color: rgb(195, 178, 47);
+ 
+    
+}
+.img{
+position: absolute;
+right: 0;
+transform:rotate(-20deg);
+height: 100%;
+width: 40%;
+bottom: -20%;
+}

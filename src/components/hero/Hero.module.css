@@ -1,0 +1,131 @@
+.container{
+    padding: 0rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.wraper{
+    display: flex;
+    align-items: baseline;
+justify-content: center;
+position: relative;
+}
+.wraper>img{
+    width: 30rem;
+    position: absolute;
+bottom: 0;}
+.blueCircle{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+bottom: 0;
+background: linear-gradient(90deg, rgba(21,184,240,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.cart2{
+    padding: .5rem;
+    position: absolute;
+    bottom: 25%;
+right: 5%;
+display: flex;
+align-items: center;
+gap: 0.5rem;
+
+
+
+}
+.cart2>:first-child{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1rem;
+    background:#01d2fe;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-box-shadow: 0px 0px 15px 0px #333333; 
+	-webkit-box-shadow: 0px 0px 15px 0px #333333; 
+	box-shadow: 0px 0px 15px 0px #333333; 
+}
+.cart2>:first-child:hover{
+border: 3px solid #343434;
+transition: all 0.5s ease-in-out;
+
+
+}
+.right{
+    width: 2rem;
+    height: 2rem;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
+
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-weight: 600;
+    color: black;
+    list-style: none;
+    background: white;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px #6b5858; 
+}
+
+
+
+.h_sides{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+    .text1{
+text-transform: uppercase;
+font-size: 1.5rem;
+width: min-content;
+font-weight: 600;
+display: block;
+    }
+    .text2{
+        display: flex;
+flex-direction: column;
+        align-items: center;
+        width: min-content;
+        color: black;
+    }
+    .text2>:first-child{
+        font-size: 2.5rem;
+        font-weight: 800;
+    }
+    .text2>:nth-child(2){
+        font-size: 1.5rem;
+display: block;    }
+.tarfic{
+
+    display: flex;
+flex-direction: column;
+text-align: right;
+}
+.tarfic>:first-child{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.customers{
+    display: flex;
+flex-direction: column;
+text-align: right;
+
+}
+.customers>:first-child{
+    font-size: 2.5rem;
+    font-weight: 800;
+}

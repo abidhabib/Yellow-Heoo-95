@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8E367;
+    transition: all 3s ease;
+    color: var(--black);
+    scroll-behavior: smooth;
+    user-select: none;
+}
